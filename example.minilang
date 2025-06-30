@@ -1,0 +1,38 @@
+3 push onto stack
+5 push onto stack
+* multiply top two values from stack
+2
+*
+5
++ add top two numbers
+2
+- subtract top two numbers with the top one being subtracted from the lower one (lower - top)
+^ output the top number as a unicode codepoint
+2
+! drop the top number from the stack
+{ loop until top is not zero
+$ wait up to one hundred ms for user input and push it onto the stack as a unicode codepoint
+5
+5
+*
+4
+*
+7
++
+= test for equality and if so push two^thirty-two minus one and if not push zero. doesn't remove the stuff
+!
+[
+^
+35*2*3+ get exclamation mark
+^
+] runs if k is pressed
+5
+5
+*
+3
+*
+4
+-
+we got q now
+- test for the input being q and if so it'll be zero and exit the loop
+}

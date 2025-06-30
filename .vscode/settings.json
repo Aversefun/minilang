@@ -1,5 +1,6 @@
 {
     "rust-analyzer.check.command": "clippy",
+    "rust-analyzer.check.allTargets": false,
     "rust-analyzer.references.excludeTests": true,
     "git.enabled": false,
 }
